@@ -36,7 +36,7 @@ def escolha_inicial():
 
 def cafe_da_manha_virtual():
     limpar_janela()
-    texto = "Você decide preparar um café da manhã especial na videochamada. O que você vai preparar?"
+    texto = "Você decide preparar um café da manhã na videochamada. O que você vai preparar?"
     label = tk.Label(root, text=texto, bg='#ffc8dd', fg='#590d22', font=('Montserrat', 16, 'bold'), wraplength=700)
     label.pack(pady=20)
     botao_1 = tk.Button(root, text='Algo simples para ter mais tempo para admirar meu bem', bg='#ffc8dd', fg='#590d22', font=('Montserrat', 12, 'bold'), command=panquecas)
@@ -46,7 +46,7 @@ def cafe_da_manha_virtual():
 
 def mensagem_romantica():
     limpar_janela()
-    texto = "Você decide enviar uma mensagem romântica de bom dia antes da videochamada. O que você vai escrever?"
+    texto = "Você decide enviar uma mensagem romântica de bom dia. O que você vai escrever?"
     label = tk.Label(root, text=texto, bg='#ffc8dd', fg='#590d22', font=('Montserrat', 16, 'bold'), wraplength=700)
     label.pack(pady=20)
     botao_1 = tk.Button(root, text='Um poema de amor.', bg='#ffc8dd', fg='#590d22', font=('Montserrat', 12, 'bold'), command=poema)
@@ -118,12 +118,10 @@ def surpresa_na_chamada():
 
 def cantar_musica():
     limpar_janela()
-    texto = """And that's why night after night
-               I'll be fuckin' you right
-               Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday (a week)
-               Monday, Tuesday, Wednesday, Thursday, Friday, seven days a week
-               Every hour, every minute, every second, you know night after night
-               I'll be fuckin' you right seven days a week!"""
+    texto = """Vou te colocar em uma moldura, ah, meu bem, não dá pra te culpar.
+                Ainda bem que a sua mãe te fez,
+                Está me deixando louco, você é inexplicável, uh.
+                Você deve ser um anjo. (Justin Timberlake - Selfish)"""
     
     label = tk.Label(root, text=texto, bg='#ffc8dd', fg='#590d22', font=('Montserrat', 16, 'bold'), wraplength=700)
     label.pack(pady=20)
@@ -133,16 +131,7 @@ def cantar_musica():
 
 def presente_virtual():
     limpar_janela()
-    texto =""" ◌                             ◌                                       ◌           
-                                            ‧₊ *:･ﾟ彡       ◌                 ☽︎       ◌
-            ◌                                 ✩彡 ･ﾟ *:                                     
-                                ◌                                        ◌
-◌
-                                                 ♡
-                                        (\_(\       /)_/)
-                                       (      )    (      )
-                                     ૮/ʚɞ  |ა      ૮|  ʚɞ\ა
-                                      ( ◌    |      |     ◌ )"""
+    texto =""" ☀ Nosso amor é como o sol e a lua, sempre presentes, mesmo quando não estão juntos fisicamente, iluminando e guiando um ao outro em todas as fases da vida ☾"""
     label = tk.Label(root, text=texto, bg='#ffc8dd', fg='#590d22', font=('Montserrat', 16, 'bold'), wraplength=700)
     label.pack(pady=20)
     final_feliz()
